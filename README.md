@@ -52,9 +52,6 @@
 	  Discord Account Gen Modified for Mac OS
 #		
 #     Created by Nightfall-GT Modified by FilthyTrader
-#
-#     
-#      
 
 # Discord-Account-Generator
 Proof of concept of how the creation of Discord accounts can be automated without the need to type/click buttons on browser.
