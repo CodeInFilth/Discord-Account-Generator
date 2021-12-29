@@ -60,14 +60,11 @@ class DiscordGen:
     def __init__(self, email, username, password, proxy=None):
         options = webdriver.ChromeOptions()
         options.add_experimental_option("excludeSwitches", ["enable-logging"])
-        options.add_argument('--headless')
-        options.add_argument('--no-sandbox')
-        options.add_argument('--disable-dev-shm-usage')
-        
+
         if proxy:
             options.add_argument('--proxy-server=%s' % proxy)
 
-        self.driver = webdriver.Chrome(options=options, executable_path=r"chromedriver")
+        self.driver = webdriver.Chrome(options=options, executable_path="chromedriver/osx/96.0.4664.45/m1/chromedriver")
 
         self.email= email
         self.username = username
